@@ -9,7 +9,7 @@
         android:id="@+id/textView"
         android:layout_width="372dp"
         android:layout_height="130dp"
-        android:layout_marginLeft="8dp"
+        android:paddingStart="20dp"
         android:layout_marginRight="8dp"
         android:text="Демонстрация жизненного цикла Activity"
         android:textAppearance="@style/TextAppearance.AppCompat"
@@ -40,6 +40,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintRight_toLeftOf="@+id/textView2"
+        app:layout_constraintRight_toLeftOf="@+id/textCounter"
         android:layout_marginRight="8dp" />
 </android.support.constraint.ConstraintLayout>
